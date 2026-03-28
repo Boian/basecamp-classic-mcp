@@ -1,0 +1,13 @@
+[project]
+name = "basecamp-classic-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3.1.1",
+    "httpx>=0.28.1",
+]
+
+[project.scripts]
+basecamp-classic-mcp = "server:mcp.run"
